@@ -11,7 +11,6 @@ for( let i=0; i < items.length; i++)
 let indice = 0;
 
 document.getElementById("back").addEventListener("click",function(){
-
     indice++
     let background = document.getElementById("background");
     background.style.backgroundImage= `url('${items [indice]}')`; 
@@ -22,8 +21,10 @@ document.getElementById("prev").addEventListener("click",function(){
     indice--
     let background = document.getElementById("background");
     background.style.backgroundImage= `url('${items [indice]}')`; 
+    items.classList.add("")
     console.log(indice);
 })
+
 
 
 
