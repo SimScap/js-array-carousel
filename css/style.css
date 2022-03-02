@@ -1,18 +1,10 @@
 
-.container-fluid{
-    border: 2px solid black;
-    
-}
-
 .my-img-box{
-    border: 2px solid gold; 
     height: calc(100% / 5);
     
 }
 
 .row{
-    border: 2px solid violet;
-    height: 100vh;
 }
 
 #background{
